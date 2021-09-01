@@ -1,0 +1,44 @@
+name: u_flavor
+description: A restaurant service app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  animated_splash_screen: ^1.1.0
+  page_transition: ^2.0.1-nullsafety.0
+  flutter_launcher_icons: ^0.9.1
+  bottom_navy_bar: ^6.0.0
+  flutter_slidable: ^0.6.0
+  flutter_bloc: ^7.2.0
+  http: ^0.13.3
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter_icons:
+  image_path: "assets/icon.png"
+  android: "launcher_icon"
+  ios: true
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/
+
